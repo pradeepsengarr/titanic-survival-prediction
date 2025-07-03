@@ -1,14 +1,14 @@
-# 🚢 Titanic Survival Prediction using Logistic Regression
+#  Titanic Survival Prediction using Logistic Regression
 
 This project I Worked on  trained a model to predict which passengers survived the Titanic disaster — inspired by the classic Kaggle Titanic dataset.
 
 
-## 📊 **Project Overview**
+##  **Project Overview**
 - **Dataset**: Classic Titanic dataset (features like Pclass, Sex, Age, Fare, etc.)
 - **Goal**: Predict whether a passenger survived (`0` = did not survive, `1` = survived)
 - **Model**: Logistic Regression (simple yet powerful for binary classification)
 
-## ✅ **Steps:**
+##  **Steps:**
 1. **Data Cleaning**  
    - Fill missing Age values with median (from train data)
    - Encode categorical variables (`Sex`, `Embarked`) into numeric features
@@ -29,7 +29,7 @@ This project I Worked on  trained a model to predict which passengers survived t
    - Created sample passengers to test model predictions
 
 
-## 🧪 **Example: Predicting a new passenger**
+##  **Example: Predicting a new passenger**
 
 ```python
 import pandas as pd
